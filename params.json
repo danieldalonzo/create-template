@@ -1,0 +1,6 @@
+{
+  "name": "Create-template",
+  "tagline": "The sample single page app project template, uses RequireJS",
+  "body": "This web project has the following setup:\r\n\r\n* www/ - the web assets for the project\r\n    * index.html - the entry point into the app.\r\n    * app.js - the top-level config script used by index.html\r\n    * app/ - the directory to store project-specific scripts.\r\n    * lib/ - the directory to hold third party scripts.\r\n* tools/ - the build tools to optimize the project.\r\n\r\nTo optimize, run:\r\n\r\n    node tools/r.js -o tools/build.js\r\n\r\nThat build command creates an optimized version of the project in a\r\n**www-built** directory. The app.js file will be optimized to include\r\nall of its dependencies.\r\n\r\nFor more information on the optimizer:\r\nhttp://requirejs.org/docs/optimization.html\r\n\r\nFor more information on using requirejs:\r\nhttp://requirejs.org/docs/api.html\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
